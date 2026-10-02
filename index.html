@@ -27,18 +27,30 @@ footer{background:#342d28;color:#e9e0d3;padding:42px 0;font-size:.85rem}footer .
 @media(max-width:760px){nav{display:none}.grid,.split{grid-template-columns:1fr}.wrap{padding:0 18px}.hero{padding:76px 0 92px}section{padding:72px 0}.feature{padding:30px}.hero h1{font-size:clamp(2.9rem,14vw,4.4rem)}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none}}
 </style>
-</head>
+
+<style>
+/* Refined conversion + mobile navigation pass */
+.nav{box-shadow:0 8px 30px #342d2808}.brand{letter-spacing:.015em}.hero{min-height:690px;display:flex;align-items:center}.hero:after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 15% 85%,#b18b5414 0,transparent 25%),radial-gradient(circle at 88% 12%,#707b6120 0,transparent 30%)}
+.trust{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:-1px}.trust div{background:var(--white);padding:22px 18px;text-align:center}.trust strong{display:block;font-size:1rem;font-weight:500}.trust span{display:block;color:var(--muted);font: .72rem/1.4 system-ui;margin-top:4px}
+.ritual{background:#f0e7d8}.ritual .wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px;align-items:center}.ritual h2{font-size:clamp(2.3rem,5vw,4.4rem);line-height:1.02;font-weight:500;margin:10px 0}.steps{display:grid;gap:16px}.step{display:grid;grid-template-columns:45px 1fr;gap:14px;align-items:start}.step b{display:grid;place-items:center;width:34px;height:34px;border:1px solid #bcae9a;border-radius:50%;font:700 .75rem system-ui;color:var(--sage-dark)}.step h3{margin:0 0 4px;font-size:1.12rem;font-weight:600}.step p{margin:0;color:var(--muted)}
+.mobile-book{display:none}
+@media(max-width:760px){.hero{min-height:auto}.trust{grid-template-columns:1fr 1fr}.ritual .wrap{grid-template-columns:1fr;gap:35px}.mobile-book{display:block;position:fixed;bottom:12px;left:12px;right:12px;z-index:30;text-align:center;border-radius:6px}.mobile-book a{display:block}}
+@media(prefers-reduced-motion:reduce){.card{transition:none}}
+</style></head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="nav"><div class="wrap navin"><a class="brand" href="#">Holistic Cleaning<em>faithful service • peaceful home</em></a><nav aria-label="Primary"><a href="#services">Services</a><a href="#about">About</a><a href="#faith">Faith</a><a href="#areas">Areas</a><a href="#faq">FAQ</a><a href="#request">Request</a></nav></div></header>
 <main id="main">
 <section class="hero"><div class="wrap reveal"><div class="eyebrow">Faith • Hospitality • Stewardship</div><h1>Bringing peace, care, and <em>grace</em> back into the home.</h1><p>A thoughtful approach to cleaning rooted in the belief that caring for a home can be an act of service. We come ready to work with humility, attention, and respect for the people who call that space home.</p><div class="actions"><a class="btn" href="#request">Request a cleaning estimate</a><a class="btn alt" href="#services">Explore services</a></div><div class="scripture">“Create in me a clean heart, O God.”<cite>Psalm 51:10</cite></div></div></section>
 
+<div class="trust" aria-label="Service principles"><div><strong>Respectful</strong><span>Your home is treated with care</span></div><div><strong>Clear</strong><span>Scope discussed before work</span></div><div><strong>Thoughtful</strong><span>Attention beyond the obvious</span></div><div><strong>Faith-rooted</strong><span>Service with humility</span></div></div>
 <section id="services"><div class="wrap"><div class="sectionhead reveal"><div class="eyebrow">Care for the home</div><h2>Cleaning with purpose, not just a checklist.</h2><p class="muted">Every home has its own rhythm. Tell us what needs attention and we can discuss the right scope of work. Pricing is provided after the details are confirmed.</p></div><div class="grid">
 <article class="card reveal"><div class="number">01 / HOME</div><h3>Home Cleaning</h3><p class="muted">Thoughtful care for the rooms, routines, and everyday spaces that matter most.</p></article>
 <article class="card reveal"><div class="number">02 / RESET</div><h3>Deep Cleaning</h3><p class="muted">A more detailed reset for a home that needs extra attention and a fresh beginning.</p></article>
 <article class="card reveal"><div class="number">03 / TRANSITION</div><h3>Move-In / Move-Out</h3><p class="muted">A clean starting point when a home is being prepared for its next chapter.</p></article>
 </div></div></section>
+
+<section class="ritual"><div class="wrap"><div class="reveal"><div class="eyebrow">The Holistic difference</div><h2>A reset you can feel.</h2><p class="muted">The experience is designed to move from clarity to care to completion—so the home feels ready for real life again.</p></div><div class="steps reveal"><div class="step"><b>01</b><div><h3>Listen</h3><p>We start with what matters most to you, your home, and your schedule.</p></div></div><div class="step"><b>02</b><div><h3>Care</h3><p>The agreed scope guides the work, with respect for your space and belongings.</p></div></div><div class="step"><b>03</b><div><h3>Restore</h3><p>The goal is not perfection for show—it is a home that feels cared for and ready.</p></div></div></div></div></section>
 
 <section id="about"><div class="wrap split"><div class="feature reveal"><div class="eyebrow">Service with intention</div><h2>Warmth, humility, and good stewardship.</h2><p class="muted">Holistic Cleaning is built around simple values: do honest work, communicate clearly, respect what belongs to others, and serve people well.</p><ul class="ticks"><li>Careful attention to the details</li><li>Respect for your home and belongings</li><li>Clear scope before work begins</li><li>Service delivered with kindness</li></ul></div><div class="reveal"><div class="eyebrow">Why “holistic”?</div><h2>The home is more than a house.</h2><p class="muted">It is where families gather, where meals are shared, where people rest, pray, work, celebrate, and begin again. Cleaning should support that life—not simply make a room look finished.</p><p class="muted">The goal is simple: leave your space feeling cared for, peaceful, and ready for the people who live there.</p></div></div></section>
 
@@ -72,4 +84,4 @@ const o=new IntersectionObserver(es=>es.forEach(e=>e.isIntersecting&&e.target.cl
 document.querySelectorAll('.reveal').forEach(x=>o.observe(x));
 document.getElementById('cleaning').addEventListener('submit',e=>{e.preventDefault();if(!e.currentTarget.checkValidity()){e.currentTarget.reportValidity();return}document.getElementById('status').textContent='Your request is ready. A real contact destination still needs to be connected before this form can transmit it.'});
 </script>
-</body></html>
+<div class="mobile-book"><a class="btn" href="#request">Request a cleaning estimate</a></div></body></html>
